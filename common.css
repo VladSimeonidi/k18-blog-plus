@@ -184,6 +184,7 @@ h3 {
 	font-family: roboto;
 	font-size: 13px;
 	line-height: normal;
+	width: 250px;
 }
 
 .gallery div {
@@ -192,3 +193,7 @@ h3 {
 	text-align: center;
 	width: 85%;
 } 
+
+.review_date + div {
+	overflow: hidden;
+}
